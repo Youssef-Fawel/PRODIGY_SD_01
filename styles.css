@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.container {
+    background: #f0e6d6; 
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2); 
+
+}
+
+h1 {
+    color: #fbc672;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #f3c14c;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border: none;
+}
+
+button:hover {
+    background-color: #ffce0a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button.reset-button {
+    background-color: #e74c3c; 
+}
+
+button.reset-button:hover {
+    background-color: #c0392b; 
+}
+
+.output {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.cold {
+    background-color: #3498db;
+    color: white;
+}
+
+.hot {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#error-message {
+    color: #e67e22; 
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
